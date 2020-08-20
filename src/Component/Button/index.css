@@ -1,0 +1,56 @@
+.basicButton{
+  border-radius: 50px;
+  width: 100%;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.14);
+  border: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  background-position: center;
+  transition: background 0.5s;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.whiteButton{
+  border-radius: 50px;
+  width: 100%;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.14);
+  border: none;
+  padding:0 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  background-position: center;
+  transition: background 0.5s;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.basicButton:focus{
+  outline:none;
+}
+.iconButton:focus{
+  outline:none;
+}
+.whiteButton:focus{
+  outline:none;
+}
+.basicButton:hover {
+  background: #F4255C radial-gradient(circle, transparent 1%, #F4255C 1%) center/15000%;
+}
+.whiteButton:hover {
+  background: #eeeeee radial-gradient(circle, transparent 1%, #eeeeee 1%) center/15000%;
+}
+.basicButton:active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+}
+.whiteButton:active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+}
