@@ -3,7 +3,7 @@ import "./index.css"
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import { Grid, Paper, Box, Typography, IconButton, Dialog, DialogTitle, InputLabel, Select, MenuItem, FormControl, Button as MaterialButton, Avatar } from "@material-ui/core";
 import Collapse from '@material-ui/core/Collapse';
-import { Button, Input } from "../../Component";
+import { Button, Input, Edition } from "../../Component";
 import { AccessTime, Add, Close, Theaters } from '@material-ui/icons';
 import LinearProgress from '@material-ui/core/LinearProgress';
 import { SketchPicker } from 'react-color'
@@ -177,35 +177,7 @@ class HomePage extends Component {
             </Grid>
         )
     }
-    edition = () => {
-        return (
-            <Grid item xs={12} md={12} style={{ width: '100%' }}>
-                <Paper elevation={5} className={'paper edition'}>
-                    <h4 className={'paper-heading'}>Face Edition </h4>
-                    <Grid container justify="space-between">
-                        <b>Studio Time:</b>
-                        <p>60 hourly +</p>
-                    </Grid>
-                    <Grid container justify="space-between">
-                        <b>Renews:</b>
-                        <p>10 days</p>
-                    </Grid>
-                    <Grid container justify="space-between">
-                        <b>Input:</b>
-                        <p>2 +</p>
-                    </Grid>
-                    <Grid container justify="space-between">
-                        <b>Pakages:</b>
-                        <p>600 min</p>
-                    </Grid>
-                    <Grid container justify="space-between">
-                        <b>Remarks:</b>
-                        <p>never</p>
-                    </Grid>
-                </Paper>
-            </Grid>
-        )
-    }
+
 
     selectedTeam = (item, index) => {
         const { team } = this.state;
@@ -346,7 +318,7 @@ class HomePage extends Component {
                                     <Grid container>
                                         <p className={'white-text'}><b>Recordings:</b> 20</p>
                                     </Grid>
-                                    {this.edition()}
+                                    <Edition />
                                 </Grid>
                                 {this.member(TeamList.member)}
                             </Grid>
