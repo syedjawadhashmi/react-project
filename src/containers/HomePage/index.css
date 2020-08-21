@@ -287,6 +287,71 @@
     margin-bottom: 20px;
     align-items: center;
 }
+.addMemberDialog{
+    padding:20px
+}
+.formControl{
+    width: 100%;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+.color {
+    width: 36px;
+    height: 14px;
+    border-radius: 2px;
+  }
+  .swatch {
+    padding: 5px;
+    background: #fff;
+    border-radius: 1px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+    display: inline-block;
+    cursor: pointer;
+  }
+  .popover {
+    position: absolute;
+    z-index: 2;
+  }
+  .cover {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
+  .colorDiv {
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .colorText {
+    margin-right: 10px
+  }
+  .dragbutton {
+    border:1px solid #F83B65 !important;
+    width:250px;
+    height: 100px;
+    color: #F83B65 !important;
+    background-color: transparent !important;
+    /* &:hover: {
+      backgroundColor: #000000
+    } */
+  }
+  .iconGrid {
+    display: flex;
+    width: 60%;
+    margin-bottom: 20px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .settings{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+  }
 @media screen and (max-width:960px){
     .homeLeft{
         align-items: center !important;

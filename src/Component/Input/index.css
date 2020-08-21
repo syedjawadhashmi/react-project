@@ -1,0 +1,13 @@
+.basicInput{
+    background-color: white;
+    border-radius: 50px;
+    width: 100%;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.14);
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.basicInput:focus{
+    outline: none;
+}
