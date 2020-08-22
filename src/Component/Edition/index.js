@@ -4,7 +4,7 @@ import './index.css'
 
 const Edition = () => {
     return (
-        <Grid item xs={12} md={12} style={{ width: '100%' }}>
+        <Grid item xs={12} md={8} style={{ width: '100%' }}>
             <Paper elevation={5} className={'paper edition'}>
                 <h4 className={'paper-heading'}>Face Edition </h4>
                 <Grid container justify="space-between">
